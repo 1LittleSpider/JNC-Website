@@ -65,5 +65,8 @@ footer {
   color: #ffffff;
 }
 
-
+.logo img {
+  height: 40px;
+  width: auto;
+}
 

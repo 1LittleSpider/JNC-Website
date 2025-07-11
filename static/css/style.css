@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   background: #DDD4C6 /*米黄色*/
-  color: #ffffff; /* White text for contrast */
+  color: #DDD4C6 /*米黄色*/
 }
 
 /* HEADER */
@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #2e5637; /* Darker green for navbar */
+  background: #DDD4C6 /*米黄色*/
   padding: 20px 40px;
 }
 

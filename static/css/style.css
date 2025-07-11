@@ -85,10 +85,14 @@ nav a {
   font-size: 14px;
 }
 
-.about {
+
+.about,
+.contact,
+.product {
   text-align: center;
   padding: 100px 20px;
   font-size: 24px;
 }
+
 
 

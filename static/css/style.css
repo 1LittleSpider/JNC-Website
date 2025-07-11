@@ -64,9 +64,34 @@ footer {
   background: #2e5637;
   color: #ffffff;
 }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background: #335C3F;  /* match your green */
+}
 
 .logo img {
   height: 40px;
   width: auto;
+  display: block;
 }
+
+nav {
+  display: flex;
+  gap: 30px; /* space between links */
+}
+
+nav a {
+  color: #fff; /* or your color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.slogan {
+  color: #fff;
+  font-size: 14px;
+}
+
 

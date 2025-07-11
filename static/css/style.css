@@ -95,4 +95,10 @@ nav a {
 }
 
 
+.logo a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+
 

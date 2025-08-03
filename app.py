@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
-app.config['VERSION'] = '1.0'  # Increment this when you change CSS/JS
+app.config['VERSION'] = '2.0'  # Increment this when you change CSS/JS
 
 
 # Product data (in-memory, replace with DB later)

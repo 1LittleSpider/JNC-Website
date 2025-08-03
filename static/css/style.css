@@ -86,7 +86,7 @@ nav a {
 }
 
 
-.about,
+
 .contact,
 .product {
   text-align: center;
@@ -177,6 +177,36 @@ nav a {
     grid-template-columns: 1fr;
   }
 }
+
+.about {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.6;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2f4f4f;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #3a6e6e;
+}
+
+.about p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #444;
+}
+
 
 
 

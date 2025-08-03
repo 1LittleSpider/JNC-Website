@@ -1,8 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <section class="product">
-    <h1>Our Products</h1>
-    <p>This is the Product page.</p>
-  </section>
+<h1 style="text-align:center; margin: 20px 0;">Our Products</h1>
+
+<div class="product-grid">
+  {% for product in products %}
+    <div class="product-card">
+      <a href="{{ url_for('product_detail', product_id=product.id) }}">
+        <img src="{{ product.image }}" alt="{{ product.name }}">
+      </a>
+      <h3>{{ product.name }}</h3>
+      <p class="price">${{ "%.2f"|format(product.price) }}</p>
+    </div>
+  {% endfor %}
+</div>
 {% endblock %}

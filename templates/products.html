@@ -7,7 +7,7 @@
   {% for product in products %}
     <div class="product-card">
       <a href="{{ url_for('product_detail', product_id=product.id) }}">
-        <img src="{{ product.image }}" alt="{{ product.name }}">
+        <img src="{{ url_for('static', filename='images/products/' + product.image) }}?v={{ config.VERSION }}" alt="{{ product.name }}">
       </a>
       <h3>{{ product.name }}</h3>
       <p class="price">${{ "%.2f"|format(product.price) }}</p>

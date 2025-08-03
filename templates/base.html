@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <title>J&C Indoor Gardening</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=2" />
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v={{ config.VERSION }}">
+  <script src="{{ url_for('static', filename='js/main.js') }}?v={{ config.VERSION }}"></script>
+
 
 </head>
 <body>
